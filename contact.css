@@ -1,0 +1,77 @@
+header {
+    margin-bottom: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+
+.acceuil, .contact {
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    color: aliceblue;
+    width: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    font-size: 1.5em;
+    
+}
+input {
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    
+    
+    
+    
+}
+
+fieldset{
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    height: 300px;
+    color: aliceblue;
+    background-color: black;
+    
+   
+}
+
+body {
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url('background_index.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.submit {
+   
+    margin: auto;
+
+}
+.question_spe input {
+    
+    width: 100px;
+}
+

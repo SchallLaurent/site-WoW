@@ -1,0 +1,104 @@
+header {
+    margin-bottom: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+
+.acceuil, .contact {
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    color: aliceblue;
+    width: 150px;
+    
+}
+
+
+
+
+.cardProtection, .cardArme, .cardFury {
+    height: 700px;
+    width: 588px;
+    color: black;  
+    background-position: center;
+    background-size: cover;
+    border: 1px;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardArme:hover, .cardFury:hover, .cardProtection:hover {
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+.cardProtection {
+    background-image: url("img_prot_1.jpg");
+}
+.cardProtection:hover {
+    background-image: url("img_prot_2.jpg");
+}
+.cardProtection:hover h1, .cardArme:hover h1, .cardFury:hover h1 {
+    display: block;
+    font-size: 2em;
+    
+    
+}
+
+.cardArme {
+    background-image: url("img_arme_1.jpg");
+}
+.cardArme:hover {
+    background-image: url("img_arme_2.jpg"); 
+}
+
+.cardFury{
+    background-image: url("img_fury_1.jpg");
+}
+.cardFury:hover {
+    background-image: url("img_fury_2.jpg");
+}
+
+
+.conteneur_spe {
+    height: 700px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+    height: 300px;
+    color: aliceblue;
+    background-color: black;
+   
+}
+
+body {
+    background-image: url('background_index.jpg');
+    background-size: cover; 
+}
+        
+
+h1 {
+    display: none;
+}
