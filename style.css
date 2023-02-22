@@ -1,7 +1,6 @@
-header {
-    
+header { 
     height: 100px;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Covered By Your Grace', cursive;
     font-family: 'Permanent Marker', cursive;
@@ -9,67 +8,60 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: black; 
 }   
 
 .acceuil, .contact {
-    display: block;
-    border: 2px solid black;
-    border-radius: 20px;
+    display: block; 
     height: 100px;
     color: aliceblue;
-    width: 150px;
-    
+    width: 150px;   
 }
 
-
-
-.containerCard{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    
-}
 .card{
     font-family: 'Covered By Your Grace', cursive;
     font-family: 'Permanent Marker', cursive;
-    width: 580px;
-    min-height: 100px;
     text-align: left;
     background-size: cover; 
-    color:black; 
-    font-size: 2em; 
+    color : white; 
+    
 }
 
 .card:hover {
     background-size: cover;
     background-position: center;
-    scale: 1.05;
     transition: 2s;
 }
 
-.containerButtonCard {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100px;
-    
-    
-}
 .button{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Permanent Marker', cursive;
     border: none;
-    width: 141.5px;
+    width: 200px;
+    height: 65px;
+    font-size: 1.5em;
+    
 }
 .button:hover {
-    scale: 1.1;
+    scale: 1.1; 
 }
 
+.global{
+    width : 100%;
+}
 
-
+nav {
+    float: left;
+    width: 200px;
+    height: 845px;
+}
 
 footer {
     margin-top: 50px;
     height: 300px;
     color: aliceblue;
     background-color: black;
+    display: none;
    
 }
 
